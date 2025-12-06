@@ -1,12 +1,12 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "^/(resume\\.pdf)$",
-      "dest": "/$1"
+      "source": "/resume.pdf",
+      "destination": "/resume.pdf"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }
