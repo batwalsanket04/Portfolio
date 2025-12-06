@@ -68,16 +68,19 @@ export default function Navbar() {
           </nav>
 
           {/* RESUME DOWNLOAD BUTTON */}
-          <a
-            href="/resume.pdf"
-            download
-            className="flex items-center gap-2 px-5 py-2 rounded-full
-            bg-gradient-to-r from-[#FACC15] to-[#FB7185]
-            text-black font-semibold hover:scale-105 transition-all"
-          >
-            <Download size={18} />
-            Resume
-          </a>
+         <a
+  href={import.meta.env.BASE_URL + "resume.pdf"}
+  download="Sanket_Batwal_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-5 py-2 rounded-full
+  bg-gradient-to-r from-[#FACC15] to-[#FB7185]
+  text-black font-semibold hover:scale-105 transition-all"
+>
+  <Download size={18} />
+  Resume
+</a>
+
 
         </div>
 
