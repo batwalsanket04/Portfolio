@@ -22,7 +22,7 @@ const Projects = () => {
       description:
         "Expense Tracker Web-App built with MERN Stack Tools.authentication,CRUD operstions ,REST APIs and  All data handled in the mongoDB",
       tech: ["React", "Tailwind", "JavaScript","Node.Js","Express.Js","MongoDB"],
-      image: "/Project2",
+      image: "/Project2.jpg",
       github: "https://github.com/",
       live: "https://yourportfolio.vercel.app",
     },
@@ -32,7 +32,7 @@ const Projects = () => {
       description:
         "The project showcases a fully functional frontend interface that allows users to explore property listings, view details, and navigate through a visually appealing layout designed for real-world real estate platforms.",
       tech: ["TailwindCss","React.js","Web3Forms"],
-      image: "/Project3",
+      image: "/Project3.jpg",
       github: "https://github.com/batwalsanket04/RealEstate-WebApp",
       live: "https://real-estate-web-app-beta.vercel.app/",
     },
