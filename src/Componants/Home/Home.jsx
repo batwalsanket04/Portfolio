@@ -53,14 +53,14 @@ const Home = () => {
           {/* BUTTONS */}
           <div className="flex flex-wrap gap-6 justify-center md:justify-start mb-8">
             <a
-              href="#projects"
+              href="/projects"
               className="px-8 py-3 rounded-full bg-gradient-to-r from-[#FACC15] to-[#FB7185] text-black font-semibold hover:scale-105 transition"
             >
               View Projects
             </a>
 
             <a
-              href="#contact"
+              href="/contact"
               className="px-8 py-3 rounded-full border-2 border-[#FACC15] text-[#FACC15] font-semibold hover:bg-[#FACC15] hover:text-black transition"
             >
               Contact Me
@@ -68,7 +68,7 @@ const Home = () => {
           </div>
 
           {/* SOCIAL + EMAIL LINKS */}
-          <div className="flex justify-center md:justify-start gap-6 text-[#FACC15]">
+          <div className="flex justify-center md:justify-start gap-6 mb-8 text-[#FACC15]">
 
             {/* Email */}
             <a
@@ -81,7 +81,7 @@ const Home = () => {
 
             {/* GitHub */}
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/batwalsanket04"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-[#FACC15] px-4 py-2 rounded-full hover:bg-[#FACC15] hover:text-black transition"
@@ -92,7 +92,7 @@ const Home = () => {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/your-username/"
+              href="https://www.linkedin.com/in/sanket-batwal/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-[#FACC15] px-4 py-2 rounded-full hover:bg-[#FACC15] hover:text-black transition"
